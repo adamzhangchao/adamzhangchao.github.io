@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: adamzhangchao.github.io
+url: https://adamzhangchao.github.io
 date_format: "ordinal"
 title: AdamZhangChao
 subtitle: "公众号：机器学习工程师要早睡"
