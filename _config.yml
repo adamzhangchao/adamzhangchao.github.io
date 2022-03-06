@@ -11,6 +11,8 @@ keywords: 算法工程师, 机器学习工程师, Chao Zhang, adamzhangchao, ada
 timezone: Asia/Beijing
 encoding: "utf-8"
 repository: adamzhangchao/adamzhangchao.github.io
+# 如果图片显示不对，那么访问图片所在的地址，刷新缓存
+# https://purge.jsdelivr.net/
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
