@@ -4,6 +4,7 @@ title: 算法工程师的一天
 categories: [算法工程师]
 description: 在北京，算法工程师的一天
 keywords: 算法工程师, 算法，北京
+topmost: true
 ---
 
 ### 通勤
