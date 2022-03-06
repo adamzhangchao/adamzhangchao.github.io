@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-06T10:30:20+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Adam</title><subtitle>Adam的个人博客，公众号：算法工程师要早睡</subtitle><author><name>adamzhangchao</name></author><entry><title type="html">在 Mac 下编译 chaosblade</title><link href="http://localhost:4000/2022/02/19/compile-chaosblade-on-mac/" rel="alternate" type="text/html" title="在 Mac 下编译 chaosblade" /><published>2022-02-19T00:00:00+00:00</published><updated>2022-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2022/02/19/compile-chaosblade-on-mac</id><content type="html" xml:base="http://localhost:4000/2022/02/19/compile-chaosblade-on-mac/">&lt;p&gt;首先声明，这不是一份指南，这是一份失败的操作流水记录。我得到的最终结果：编译成功，但是无法运行，放弃在 Mac 平台直接使用此工具，乖乖用 Linux 或者容器环境。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-03-06T10:42:33+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Adam</title><subtitle>Adam的个人博客，公众号：算法工程师要早睡</subtitle><author><name>adamzhangchao</name></author><entry><title type="html">算法工程师的一天</title><link href="http://localhost:4000/2022/03/06/one-day-of-algorithm/" rel="alternate" type="text/html" title="算法工程师的一天" /><published>2022-03-06T00:00:00+00:00</published><updated>2022-03-06T00:00:00+00:00</updated><id>http://localhost:4000/2022/03/06/one-day-of-algorithm</id><content type="html" xml:base="http://localhost:4000/2022/03/06/one-day-of-algorithm/">&lt;h3 id=&quot;通勤&quot;&gt;通勤&lt;/h3&gt;
+&lt;p&gt;坐标帝都，每天大概8点多起床，转三班地铁到公司，期间9点左右会有公司技术专栏和互联网八卦的推送，打开了网易云音乐，点了一手许巍《故乡》，顺便看看最近同行们的进展。&lt;/p&gt;
+
+&lt;h3 id=&quot;开工&quot;&gt;开工&lt;/h3&gt;
+&lt;p&gt;到了公司，先放下书包接杯水，打开浏览器的报表标签，等待页面刷新的同时暗暗祈祷，不出意外，又是跌金额的一天。赶紧看看同事们的桶怎么样，发现各项指标依然健壮，原来这次不是简单的波动了。&lt;/p&gt;
+
+&lt;p&gt;然后分析一下各路的占比情况，发现为啥单价跌了这么多。OK，那接下来我优化下单价吧。先打开技术论坛看看有没有前辈遇到过这个问题，然后和同事一起来讨论下方案可行性。有了大概的思路之后，打开内部文档，开始写方案：&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;方案一：可以最终分数上把单价的分调一下;&lt;/li&gt;
+  &lt;li&gt;方案二：把单价加到模型的loss里面优化;&lt;/li&gt;
+  &lt;li&gt;方案三：可以在merge的时候改下优先级… 。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;接下来先改加分策略，线上生效。再改模型，很快嗷，代码写的差不多，赶在中午吃饭之前把任务提交上。&lt;/p&gt;
+
+&lt;p&gt;不出意外的，正吃饭的时候推送了一条消息，你的模型运行失败。&lt;/p&gt;
+
+&lt;h3 id=&quot;午饭&quot;&gt;午饭&lt;/h3&gt;
+&lt;p&gt;吃完饭别的同事说天气不错，出去转转吧？你婉言回绝了，赶紧回来把tensor的shape修了一下，接着提上去。然后趴在桌子上歇了会。&lt;/p&gt;
+
+&lt;h3 id=&quot;正式工作&quot;&gt;正式工作&lt;/h3&gt;
+&lt;p&gt;不久，一个853开头的境外电话打了过来，你按了接听，对面问你需要借钱么，利率3.5，你直接给挂了。手机还有另外一个推送，你的模型又挂掉了，打开监控看了下，原来加loss把梯度给搞爆炸了。于是赶紧把这个问题给修了…&lt;/p&gt;
+
+&lt;p&gt;这时候客服群里AT你了，问为啥有些商品出不来，你放下了手头的工作，开始排查case。&lt;/p&gt;
+
+&lt;p&gt;终于case排查完了，你的代码也顺利跑起来了。这时候老板又让大家做一下下一阶段的工作规划，你打开了ppt，熟练的操作了起来。&lt;/p&gt;
+
+&lt;p&gt;晚饭后，模型训得差不多，先离线评一下。OK，各类指标没啥变化，但你还是把它推到了线上，等切换的过程中顺便看了下加策略的实时报表，发现力度还是不够，又加了权重上去，下班之前再次生效。&lt;/p&gt;
+
+&lt;h3 id=&quot;回家&quot;&gt;回家&lt;/h3&gt;
+&lt;p&gt;转三趟地铁回到家，22:30左右，洗漱完打开电脑发现你的模型切换成功，放心的合上了电脑。双手合十，祈祷明天有个好收成…&lt;/p&gt;
+
+&lt;p&gt;综上，希望每个算法工程师都能被这个时代温柔以待。&lt;/p&gt;</content><author><name>adamzhangchao</name></author><category term="算法工程师" /><summary type="html">通勤 坐标帝都，每天大概8点多起床，转三班地铁到公司，期间9点左右会有公司技术专栏和互联网八卦的推送，打开了网易云音乐，点了一手许巍《故乡》，顺便看看最近同行们的进展。</summary></entry><entry><title type="html">在 Mac 下编译 chaosblade</title><link href="http://localhost:4000/2022/02/19/compile-chaosblade-on-mac/" rel="alternate" type="text/html" title="在 Mac 下编译 chaosblade" /><published>2022-02-19T00:00:00+00:00</published><updated>2022-02-19T00:00:00+00:00</updated><id>http://localhost:4000/2022/02/19/compile-chaosblade-on-mac</id><content type="html" xml:base="http://localhost:4000/2022/02/19/compile-chaosblade-on-mac/">&lt;p&gt;首先声明，这不是一份指南，这是一份失败的操作流水记录。我得到的最终结果：编译成功，但是无法运行，放弃在 Mac 平台直接使用此工具，乖乖用 Linux 或者容器环境。&lt;/p&gt;
 
 &lt;p&gt;以下问题的遇到和解决记录，基本是按时间序。&lt;/p&gt;
 
