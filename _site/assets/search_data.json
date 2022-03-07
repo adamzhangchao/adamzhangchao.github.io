@@ -5,7 +5,7 @@
   
     {
       "title"    : "页面没有找到",
-      "url"      : "http://localhost:4001/404.html",
+      "url"      : "http://localhost:4000/404.html",
       "keywords" : "404"
     } ,
   
@@ -13,7 +13,7 @@
   
     {
       "title"    : "About",
-      "url"      : "http://localhost:4001/about/",
+      "url"      : "http://localhost:4000/about/",
       "keywords" : "Adam, AdamZhang"
     } ,
   
@@ -21,7 +21,7 @@
   
     {
       "title"    : "归档",
-      "url"      : "http://localhost:4001/archives/",
+      "url"      : "http://localhost:4000/archives/",
       "keywords" : "归档"
     } ,
   
@@ -29,7 +29,7 @@
   
     {
       "title"    : "Categories",
-      "url"      : "http://localhost:4001/categories/",
+      "url"      : "http://localhost:4000/categories/",
       "keywords" : "分类"
     } ,
   
@@ -37,7 +37,7 @@
   
     {
       "title"    : "捐助 / Donate",
-      "url"      : "http://localhost:4001/donate/",
+      "url"      : "http://localhost:4000/donate/",
       "keywords" : "Donate"
     } ,
   
@@ -47,7 +47,7 @@
   
     {
       "title"    : "Links",
-      "url"      : "http://localhost:4001/links/",
+      "url"      : "http://localhost:4000/links/",
       "keywords" : "友情链接"
     } ,
   
@@ -55,7 +55,7 @@
   
     {
       "title"    : "mindmap",
-      "url"      : "http://localhost:4001/mindmap-viewer/",
+      "url"      : "http://localhost:4000/mindmap-viewer/",
       "keywords" : "mindmap"
     } ,
   
@@ -63,7 +63,7 @@
   
     {
       "title"    : "Open Source Projects",
-      "url"      : "http://localhost:4001/open-source/",
+      "url"      : "http://localhost:4000/open-source/",
       "keywords" : "开源,open-source,GitHub,开源项目"
     } ,
   
@@ -73,7 +73,7 @@
   
     {
       "title"    : "Wiki",
-      "url"      : "http://localhost:4001/wiki/",
+      "url"      : "http://localhost:4000/wiki/",
       "keywords" : "维基, Wiki"
     } ,
   
@@ -92,7 +92,7 @@
       "title"    : "我的 2021 盘点",
       "category" : "Blog",
       
-      "url"      : "http://localhost:4001/2022/01/01/my-2021/",
+      "url"      : "http://localhost:4000/2022/01/01/my-2021/",
       "keywords" : "2021, 盘点, 计划"
     } ,
   
@@ -100,7 +100,7 @@
       "title"    : "给 zsh 自定义命令添加参数自动补全",
       "category" : "Shell",
       
-      "url"      : "http://localhost:4001/2022/02/12/zsh-completion/",
+      "url"      : "http://localhost:4000/2022/02/12/zsh-completion/",
       "keywords" : "zsh, 自动补全"
     } ,
   
@@ -108,7 +108,7 @@
       "title"    : "在 Mac 下编译 chaosblade",
       "category" : "混沌工程",
       
-      "url"      : "http://localhost:4001/2022/02/19/compile-chaosblade-on-mac/",
+      "url"      : "http://localhost:4000/2022/02/19/compile-chaosblade-on-mac/",
       "keywords" : "混沌工程, chaosblade"
     } ,
   
@@ -116,7 +116,7 @@
       "title"    : "算法工程师的一天",
       "category" : "算法工程师",
       
-      "url"      : "http://localhost:4001/2022/03/06/one-day-of-algorithm/",
+      "url"      : "http://localhost:4000/2022/03/06/one-day-of-algorithm/",
       "keywords" : "算法工程师, 算法，北京"
     } 
   
