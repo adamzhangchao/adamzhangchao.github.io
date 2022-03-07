@@ -4,10 +4,10 @@
 baseurl:
 url: https://adamzhangchao.github.io
 date_format: "ordinal"
-title: Adam
+title: AdamTech
 subtitle: "公众号：算法工程师要早睡"
-description: "Adam的个人博客，公众号：算法工程师要早睡"
-keywords: 算法工程师, 机器学习工程师, Chao Zhang, adamzhangchao, adam, 机器学习工程师要早睡
+description: "AdamTech的个人博客，亚当智能，公众号：算法工程师要早睡"
+keywords: AdamTech，亚当智能，算法工程师, 机器学习工程师, Chao Zhang, adamzhangchao, adam, 机器学习工程师要早睡
 timezone: Asia/Beijing
 encoding: "utf-8"
 repository: adamzhangchao/adamzhangchao.github.io
